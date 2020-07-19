@@ -5,30 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Project Board</title>
-
-    <!-- outside sytle -->
-
-    <!-- Google Font: Merienda -->
-    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
-
-
-    <!-- file imports -->
-
-    <!-- styling file -->
     <link rel="stylesheet" href="assets/styles/app.css" />
-    <link rel="stylesheet" href="assets/styles/footer.css">
-
-    <!-- js file -->
     <script src="assets/scripts/app.js" defer></script>
-
   </head>
   <body>
-
+    <template id="tooltip">
+      <h2>More Info</h2>
+      <p></p>
+    </template>
     <header id="main-header">
       <h1>Project Planner</h1>
     </header>
-
-
     <section id="active-projects">
       <header>
         <h2>Active Projects</h2>
@@ -56,8 +43,6 @@
         </li>
       </ul>
     </section>
-
-
     <section id="finished-projects">
       <header>
         <h2>Finished Projects</h2>
@@ -78,6 +63,8 @@
         </li>
       </ul>
     </section>
-
+    <footer>
+      <button id="stop-analytics-btn">Stop Analytics</button>
+    </footer>
   </body>
 </html>
