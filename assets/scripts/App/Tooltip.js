@@ -1,6 +1,8 @@
-import { Component } from './Component.js';
+import Cmp, { doSomething } from './Component.js';
 
-class Tooltip extends Component {
+console.log('Tooltip running');
+
+export class Tooltip extends Cmp {
   constructor(closeNotifierFunction, text, hostElementId) {
     super(hostElementId);
     this.closeNotifier = closeNotifierFunction;
