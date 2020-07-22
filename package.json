@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sehermahmud/project-planner/issues"
   },
-  "homepage": "https://github.com/sehermahmud/project-planner#readme"
+  "homepage": "https://github.com/sehermahmud/project-planner#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0"
+  }
 }
