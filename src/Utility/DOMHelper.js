@@ -6,7 +6,7 @@ export class DOMHelper {
 
     element.replaceWith(clonedElement);
 
-return clonedElement;
+    return clonedElement;
   }
 
   static moveElement(elementId, newDestinationSelector) {
@@ -14,7 +14,7 @@ return clonedElement;
     const destinationElement = document.querySelector(newDestinationSelector);
 
     destinationElement.append(element);
-    element.scrollIntoView({ 'behavior': 'smooth' });
+    element.scrollIntoView({ behavior: 'smooth' });
   }
 }
 
@@ -23,7 +23,7 @@ export function clearEventListeners(element) {
 
   element.replaceWith(clonedElement);
 
-return clonedElement;
+  return clonedElement;
 }
 
 export function moveElement(elementId, newDestinationSelector) {
@@ -31,5 +31,5 @@ export function moveElement(elementId, newDestinationSelector) {
   const destinationElement = document.querySelector(newDestinationSelector);
 
   destinationElement.append(element);
-  element.scrollIntoView({ 'behavior': 'smooth' });
+  element.scrollIntoView({ behavior: 'smooth' });
 }

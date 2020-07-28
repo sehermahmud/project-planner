@@ -1,7 +1,10 @@
-import { ProjectList } from './App/ProjectList.js';
+import * as _ from 'lodash/array';
+import { ProjectList } from './App/ProjectList';
 
 // eslint-disable-next-line no-undef
 globalThis.DEFAULT_VALUE = 'MAX';
+
+console.log(_.difference([0, 1], [1, 2]));
 
 class App {
   static init() {
